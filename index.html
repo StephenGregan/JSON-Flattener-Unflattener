@@ -1,0 +1,22 @@
+<h1>Json Flattener</h1>
+<div class="form-group">
+	<label>Mode:</label>
+	<label class="radio-inline">
+		<input type="radio-inline" name="mode" type="radio" value="flatten" 
+		checked="">Flatten</label>
+		<label class="radio-inline" name="mode" type="radio" value="unflatten"
+		checked="">Unflatten</label>
+</div>
+<div class="form-group">
+	<label>Input</label>
+	<input type="form-control" name="text" id="input">
+</div>
+<div>
+	<label>Output</label>
+	<textarea class="form-control" name="" id="output" cols="30" rows="5"></textarea>
+</div>
+<button id="process" class="btn btn-primary">Process</button>
+<br />
+<br />
+<label>Formatted:</label>
+<pre><code id="formatted"></code></pre>
